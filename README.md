@@ -1,48 +1,107 @@
 # DevOps Engineering Lab
 
 **Author:** Yashraj Shitre  
-**Focus:** DevOps Engineering | Cloud | CI/CD | Containerization | Monitoring | Security
+**Focus:** DevOps Engineering | Cloud Infrastructure | CI/CD | Docker | Kubernetes | Monitoring | Security
 
-## Overview
+---
 
-This repository contains 12 hands-on DevOps assignments covering application deployment, CI/CD automation, Linux and Nginx security, monitoring, centralized logging, container security, and backup and disaster recovery.
+## About This Repository
 
-The projects were built as practical learning exercises to strengthen implementation, troubleshooting, configuration management, and deployment skills.
+Welcome to my DevOps Engineering Lab — a collection of 12 hands-on assignments focused on practical DevOps implementation, automation, deployment, monitoring, security, and disaster recovery.
+
+Each assignment documents a technical exercise with implementation steps, configuration details, troubleshooting guidance, and available screenshots.
 
 ## Projects
 
 | No. | Project | Key Technologies |
 |---|---|---|
-| 01 | [WSL, Docker and MySQL Backup & Restore](01-docker-mysql-backup-restore/Assignment1_WSL_Docker_MySQL_Backup_Restore_Yashraj%20(1).pdf) | WSL, Docker, MySQL, volumes |  | WSL, Docker, MySQL, volumes | 
-| 02 | [Nginx Reverse Proxy with SSL](Assignment2_Nginx_Reverse_Proxy_SSL_Simple_Yashraj%20(1)(1).pdf) | Nginx, Docker, SSL/TLS |
-| 03 | [Docker Compose Multi-Container Application](Assignment3_Docker_Compose_MultiContainer_Yashraj%20(1)%20-%20Copy.pdf) | Docker Compose, MySQL, Redis |
-| 04 | [Linux Server Hardening](Assignment4_Linux_Server_Hardening_Report%20(1)%20-%20Copy.pdf) | Linux, SSH, UFW, Fail2Ban |
-| 05 | [Nginx Security Hardening](Assignment5_Nginx_Security_Hardening_Report%20(1)%20-%20Copy.pdf) | Nginx, security headers, rate limiting |
-| 06 | [CI/CD Pipeline with GitHub Actions](Assignment6_CICD_Pipeline_Implementation%20(1).pdf) | GitHub Actions, Docker, CI/CD |
-| 07 | [Blue-Green Deployment Strategy](Assignment7_Blue_Green_Deployment_Strategy%20(1).pdf) | Docker, Nginx, health checks, rollback |
-| 08 | [Monitoring with Prometheus and Grafana](Assignment8_Monitoring_Prometheus_Grafana%20(1).pdf) | Prometheus, Grafana, exporters |
-| 09 | [Centralized Logging](Assignment9_Centralized_Logging_Solution%20(1).pdf) | Loki, Promtail, Grafana |
-| 10 | [Database Backup and Disaster Recovery](Assignment10_Backup_and_Disaster_Recovery%20(1).pdf) | MySQL, Bash, cron, backups |
-| 11 | [Docker Image Security Hardening](Assignment11_Docker_Image_Security_Hardening%20(1)%20-%20Copy.pdf) | Docker, Trivy, non-root containers |
-| 12 | [Production Deployment Project](Assignment12_Complete_Production_Deployment_Project%20(1).pdf) | Docker Compose, Nginx, monitoring, logging |
+| 01 | [WSL, Docker and MySQL Backup & Restore](01-docker-mysql-backup-restore/Assignment1_WSL_Docker_MySQL_Backup_Restore_Yashraj%20(1).pdf) | WSL, Docker, MySQL, Volumes |
+| 02 | [Nginx Reverse Proxy with SSL](02-nginx-reverse-proxy-ssl/Assignment2_Nginx_Reverse_Proxy_SSL_Simple_Yashraj%20(1)(1).pdf) | Nginx, Docker, SSL/TLS |
+| 03 | [Docker Compose Multi-Container Application](03-docker-compose-multi-container/Assignment3_Docker_Compose_MultiContainer_Yashraj%20(1)%20-%20Copy.pdf) | Docker Compose, MySQL, Redis |
+| 04 | [Linux Server Hardening](04-linux-server-hardening/Assignment4_Linux_Server_Hardening_Report%20(1)%20-%20Copy.pdf) | Linux, SSH, UFW, Fail2Ban |
+| 05 | [Nginx Security Hardening](05-nginx-security-hardening/Assignment5_Nginx_Security_Hardening_Report%20(1)%20-%20Copy.pdf) | Nginx, Security Headers, Rate Limiting |
+| 06 | [CI/CD Pipeline with GitHub Actions](06-cicd-pipeline-implementation/Assignment6_CICD_Pipeline_Implementation%20(1).pdf) | GitHub Actions, Docker, CI/CD |
+| 07 | [Blue-Green Deployment Strategy](07-blue-green-deployment/Assignment7_Blue_Green_Deployment_Strategy%20(1).pdf) | Docker, Nginx, Health Checks, Rollback |
+| 08 | [Monitoring with Prometheus and Grafana](08-prometheus-grafana-monitoring/Assignment8_Monitoring_Prometheus_Grafana%20(1).pdf) | Prometheus, Grafana, Exporters |
+| 09 | [Centralized Logging](09-centralized-logging/Assignment9_Centralized_Logging_Solution%20(1).pdf) | Loki, Promtail, Grafana |
+| 10 | [Database Backup and Disaster Recovery](10-backup-disaster-recovery/Assignment10_Backup_and_Disaster_Recovery%20(1).pdf) | MySQL, Bash, Cron, Backups |
+| 11 | [Docker Image Security Hardening](11-docker-image-security/Assignment11_Docker_Image_Security_Hardening%20(1)%20-%20Copy.pdf) | Docker, Trivy, Non-Root Containers |
+| 12 | [Production Deployment Project](12-production-deployment/Assignment12_Complete_Production_Deployment_Project%20(1).pdf) | Docker Compose, Nginx, Monitoring, Logging |
 
-## Skills Demonstrated
+## Technical Skills
 
-- Containerization and multi-container application management
-- CI/CD pipeline design and automation
-- Blue-green deployment and rollback planning
-- Linux server and web server security hardening
-- Infrastructure and application monitoring
-- Centralized logging and troubleshooting
-- Database backup, restore, and recovery planning
-- Container image security practices
+### Containerization & Orchestration
+- Docker and Docker Compose
+- Multi-container application deployment
+- Container image hardening
+- Kubernetes fundamentals
+
+### CI/CD & Deployment
+- GitHub Actions
+- CI/CD pipeline implementation
+- Blue-green deployment strategies
+- Health checks and rollback planning
+
+### Linux & Web Server Administration
+- Linux command-line operations
+- SSH and server hardening
+- Nginx reverse proxy configuration
+- SSL/TLS and security headers
+- Firewall configuration with UFW
+- Fail2Ban
+
+### Monitoring & Logging
+- Prometheus
+- Grafana
+- Metrics exporters
+- Centralized logging with Loki and Promtail
+- Application monitoring and troubleshooting
+
+### Backup, Recovery & Security
+- MySQL backup and restore
+- Docker volumes and persistent storage
+- Disaster recovery planning
+- Docker image scanning with Trivy
+- Non-root container execution
+- Security hardening practices
+
+### Tools & Workflow
+- Git and GitHub
+- GitHub repository management
+- Markdown documentation
+- Configuration and deployment troubleshooting
 
 ## Repository Structure
 
-Each assignment is documented in its corresponding PDF report, including implementation notes, configuration details, troubleshooting guidance, and available screenshots.
+```text
+devops-engineering-lab/
+├── 01-docker-mysql-backup-restore/
+├── 02-nginx-reverse-proxy-ssl/
+├── 03-docker-compose-multi-container/
+├── 04-linux-server-hardening/
+├── 05-nginx-security-hardening/
+├── 06-cicd-pipeline-implementation/
+├── 07-blue-green-deployment/
+├── 08-prometheus-grafana-monitoring/
+├── 09-centralized-logging/
+├── 10-backup-disaster-recovery/
+├── 11-docker-image-security/
+├── 12-production-deployment/
+└── README.md
+```
 
-## About
+## Learning Objectives
 
-I am a DevOps Engineer with experience in cloud infrastructure, CI/CD, containerization, automation, monitoring, and production troubleshooting. This portfolio demonstrates practical DevOps exercises and continued technical learning.
+- Build and troubleshoot containerized applications.
+- Automate application build and deployment workflows.
+- Apply secure configuration practices to Linux and Nginx.
+- Implement monitoring and centralized logging.
+- Understand deployment validation and rollback strategies.
+- Practice database backup, restoration, and recovery procedures.
+- Document technical implementations in a structured format.
 
-**Note:** These are hands-on lab assignments. Review each report for its implementation details and evidence.
+## About Me
+
+I am a DevOps Engineer focused on cloud infrastructure, CI/CD automation, containerization, monitoring, and production troubleshooting. This repository demonstrates my hands-on lab work, practical implementation skills, and ongoing technical development.
+
+**Note:** These are hands-on lab assignments created for learning and practice. Refer to each project report for its implementation details and available evidence.
