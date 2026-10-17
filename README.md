@@ -13,7 +13,7 @@ The projects were built as practical learning exercises to strengthen implementa
 
 | No. | Project | Key Technologies |
 |---|---|---|
-| 01 | [WSL, Docker and MySQL Backup & Restore](Assignment1_WSL_Docker_MySQL_Backup_Restore_Yashraj%20(1)(1).pdf) | WSL, Docker, MySQL, volumes |
+| 01 | [WSL, Docker and MySQL Backup & Restore](01-docker-mysql-backup-restore/EXACT_PDF_FILENAME.pdf) |
 | 02 | [Nginx Reverse Proxy with SSL](Assignment2_Nginx_Reverse_Proxy_SSL_Simple_Yashraj%20(1)(1).pdf) | Nginx, Docker, SSL/TLS |
 | 03 | [Docker Compose Multi-Container Application](Assignment3_Docker_Compose_MultiContainer_Yashraj%20(1)%20-%20Copy.pdf) | Docker Compose, MySQL, Redis |
 | 04 | [Linux Server Hardening](Assignment4_Linux_Server_Hardening_Report%20(1)%20-%20Copy.pdf) | Linux, SSH, UFW, Fail2Ban |
